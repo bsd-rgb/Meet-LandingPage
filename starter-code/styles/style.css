@@ -1,9 +1,115 @@
+/*
+******************************* 
+    GENERAL
+*******************************
+*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  color: #28283d;
+}
+
+/*
+******************************* 
+    HEADER SECTION
+*******************************
+*/
+
+.img-logo {
+  display: block;
+  margin: 8.4rem auto;
+}
+
+/*
+******************************* 
+    HERO SECTION
+*******************************
+*/
+
+.section-hero {
+  margin: 0 auto;
+}
+
 .hero-mobile {
   display: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6.4rem;
+}
+
+.hero-left,
+.hero-right {
+  width: 40rem;
+}
+
+.hero-right {
+  align-self: end;
+  justify-self: end;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.hero-info p {
+  color: #87879d;
+}
+
+.heading-primary {
+  font-size: 6.4rem;
+  font-weight: 900;
+}
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1.6rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  padding: 1.6rem 3rem;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.7;
+}
+
+.btn--cyan {
+  background-color: #4d96a9;
+}
+
+.btn--purple {
+  background-color: #855fb1;
+}
+
+.text-heighlight {
+  color: #8fe3f9;
 }

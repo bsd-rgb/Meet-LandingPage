@@ -10,6 +10,12 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
 
     <title>Frontend Mentor | Meet landing page</title>
@@ -20,25 +26,36 @@
     </header>
     <main>
       <section class="section-hero">
-        <img
-          class="hero-mobile"
-          src="./assets/tablet/image-hero.png"
-          alt="images of different people posing for the camera"
-        />
-        <img
-          class="hero-left"
-          src="./assets/desktop/image-hero-left.png"
-          alt="images of different people posing for the camera"
-        />
-        <h1 class="heading-primary">Group Chat for Everyone</h1>
-        <p>
-          Meet makes it easy to connect with others face-to-face virtually and
-          collaborate across any device.
-        </p>
-        <a href="#" class="btn">Download v1.3</a>
-        <a href="#" class="btn">What is it?</a>
-        <img class="hero-right" src="./assets/desktop/image-hero-right.png"
-        alt="images of different people posing for the camera"
+        <div class="grid">
+          <img
+            class="hero-mobile"
+            src="./assets/tablet/image-hero.png"
+            alt="images of different people posing for the camera"
+          />
+          <img
+            class="hero-left"
+            src="./assets/desktop/image-hero-left.png"
+            alt="images of different people posing for the camera"
+          />
+          <div class="hero-info">
+            <h1 class="heading-primary">Group Chat for Everyone</h1>
+            <p>
+              Meet makes it easy to connect with others face-to-face virtually
+              and collaborate across any device.
+            </p>
+            <div class="btn-wrapper">
+              <a href="#" class="btn btn--cyan"
+                >Download <span class="text-heighlight"> v1.3</span></a
+              >
+              <a href="#" class="btn btn--purple">What is it?</a>
+            </div>
+          </div>
+          <img
+            class="hero-right"
+            src="./assets/desktop/image-hero-right.png"
+            alt="images of different people posing for the camera"
+          />
+        </div>
       </section>
       <section class="section-about">
         <div>01</div>
