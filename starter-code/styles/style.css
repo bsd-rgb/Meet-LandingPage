@@ -18,6 +18,12 @@ body {
   color: #28283d;
 }
 
+.container {
+  max-width: 200rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
 /*
 ******************************* 
     HEADER SECTION
@@ -36,7 +42,7 @@ body {
 */
 
 .section-hero {
-  margin: 0 auto;
+  margin: 0 auto 20rem auto;
 }
 
 .hero-mobile {
@@ -62,7 +68,7 @@ body {
 .hero-info {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 2.8rem;
   font-size: 1.8rem;
   line-height: 1.1;
   text-align: center;
@@ -110,6 +116,134 @@ body {
   background-color: #855fb1;
 }
 
-.text-heighlight {
+.text-highlight--cyan {
   color: #8fe3f9;
+}
+
+/*
+******************************* 
+    NUMBER COMPONENT
+*******************************
+*/
+
+.number {
+  text-align: center;
+  margin-bottom: 6.4rem;
+  position: relative;
+}
+
+.number::before {
+  content: "";
+  border: 1px solid #87879d49;
+  position: absolute;
+  top: -10.6rem;
+  left: 50%;
+  height: 8.4rem;
+  transform: translate(-50%);
+}
+
+.num {
+  font-size: 1.6rem;
+  display: inline;
+  color: #87879d;
+  font-weight: 800;
+  border-radius: 50%;
+  border: 1px solid #87879d73;
+  padding: 2rem 2.2rem;
+}
+
+/*
+******************************* 
+    ABOUT SECTION
+*******************************
+*/
+
+.section-about {
+  margin-bottom: 20rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  padding: 0 2.4rem 0;
+  margin-bottom: 4.8rem;
+}
+
+.about-img {
+  width: 25rem;
+  border-radius: 9px;
+}
+
+.about-text-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.subheading {
+  font-size: 1.6rem;
+  line-height: 1.1;
+  letter-spacing: 0.25rem;
+  color: #4d96a9;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 1.2rem;
+}
+
+.about-text {
+  font-size: 1.8rem;
+  line-height: 1.1;
+  color: #87879d;
+}
+
+/*
+******************************* 
+    FOOTER SECTION
+*******************************
+*/
+
+footer {
+  background-image: linear-gradient(
+      rgba(77, 151, 169, 0.9),
+      rgba(77, 151, 169, 0.9)
+    ),
+    url(../assets/desktop/image-footer.jpg);
+  background-size: cover;
+  background-position: center;
+
+  padding-top: 10rem;
+}
+
+.footer-content {
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8.4rem;
+  padding: 8.4rem;
+}
+
+.footer-heading {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.footer-text {
+  font-size: 1.8rem;
+}
+footer .btn {
+  align-self: center;
+  justify-self: center;
+}
+
+.text-highlight--purple {
+  color: #d9b8ff;
 }
