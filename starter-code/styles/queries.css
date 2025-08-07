@@ -1,0 +1,25 @@
+@media (max-width: 84em) {
+  .hero-left,
+  .hero-right {
+    display: none;
+  }
+
+  .hero-mobile {
+    display: block;
+    align-self: center;
+    justify-self: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-primary {
+    font-size: 6.4rem;
+  }
+
+  .hero-info {
+    max-width: 45rem;
+    margin: 0 auto;
+  }
+}

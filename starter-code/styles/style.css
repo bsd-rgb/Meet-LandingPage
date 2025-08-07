@@ -88,6 +88,7 @@ body {
   color: #87879d;
   font-weight: 500;
   padding: 1.6rem;
+  line-height: 1.5;
 }
 
 .heading-primary {
@@ -177,6 +178,7 @@ body {
   font-size: 4rem;
   line-height: 1.1;
   margin-bottom: 1.2rem;
+  font-weight: 900;
 }
 
 .about-text {
