@@ -45,7 +45,7 @@ Mobile:
 ### Links
 
 - Solution URL: [github.com/bsd-rgb/Meet-LandingPage](github.com/bsd-rgb/Meet-LandingPage)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://bsd-rgb.github.io/Meet-LandingPage/](https://bsd-rgb.github.io/Meet-LandingPage/)
 
 ## My process
 
