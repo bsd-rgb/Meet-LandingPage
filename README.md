@@ -24,11 +24,13 @@ Users should be able to:
 ### Screenshot
 
 Desktop:
+
 ![](./starter-code/assets/screenshots/Meet%20landing%20page_desktop0.png)
 ![](./starter-code/assets/screenshots/Meet%20landing%20page_desktop1.png)
 ![](./starter-code/assets/screenshots/Meet%20landing%20page_desktop2.png)
 
 Tablet:
+
 ![](./starter-code/assets/screenshots/Meet%20landing%20page_tablet0.png)
 ![](./starter-code/assets/screenshots/Meet%20landing%20page_tablet1.png)
 ![](./starter-code/assets/screenshots/Meet%20landing%20page_tablet2.png)
@@ -42,7 +44,7 @@ Mobile:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [github.com/bsd-rgb/Meet-LandingPage](github.com/bsd-rgb/Meet-LandingPage)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
