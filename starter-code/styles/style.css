@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  max-width: 200rem;
+  max-width: 120rem;
   margin: 0 auto;
   /* padding: 0 3.2rem; */
 }
@@ -61,16 +61,22 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 6.4rem;
+  overflow: hidden;
 }
 
 .hero-left,
 .hero-right {
-  width: 35rem;
+  max-width: 35rem;
+}
+
+.hero-left {
+  margin-left: -2.4rem;
 }
 
 .hero-right {
   align-self: end;
   justify-self: end;
+  margin-right: -2.4rem;
 }
 
 .hero-info {
@@ -140,15 +146,16 @@ body {
 */
 
 .section-about {
+  padding: 0 2.4rem;
   margin-bottom: 15rem;
 }
 
 .image-container {
   display: flex;
-  justify-content: center;
   gap: 2.4rem;
-  padding: 0 2.4rem 0;
   margin-bottom: 4.8rem;
+  justify-content: center;
+  /* flex-wrap: wrap; */
 }
 
 .about-img {
@@ -209,9 +216,12 @@ footer {
 
 .footer-content {
   color: #fff;
+
   display: grid;
+  align-items: center;
+  justify-items: center;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16rem;
+  gap: 11rem;
   padding: 6.4rem;
 }
 
@@ -222,10 +232,6 @@ footer {
 
 .footer-text {
   font-size: 1.8rem;
-}
-footer .btn {
-  align-self: center;
-  justify-self: center;
 }
 
 /*
@@ -265,6 +271,6 @@ footer .btn {
 }
 
 .num2 {
-  margin-bottom: -1.8rem;
+  margin-bottom: -2.4rem;
   z-index: 1;
 }
